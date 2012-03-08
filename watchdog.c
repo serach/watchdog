@@ -47,7 +47,7 @@ for (;;){
           printf( "Directory %s created.\n", event->name );
         }
         else {
-          printf( "finished writing.\n", event->name );
+          printf( "%s finished writing.\n", event->name );
         }
       }
     }
